@@ -39,3 +39,8 @@ void viewEntries() {
 	}	
 }
 
+// Define function deleteEntries
+void deleteEntries() {
+}
+
+
