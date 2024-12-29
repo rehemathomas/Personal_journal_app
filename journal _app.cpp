@@ -21,3 +21,8 @@ void createEntry() {
 	    cout << "Error opening file." << endl;	
 	}
 }
+
+// Define function viewEntries
+void viewEntries() {
+}
+
