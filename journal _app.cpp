@@ -34,5 +34,8 @@ void viewEntries() {
 		}
 		file.close();
 		cout << "-----------------------\n" << endl;
+	} else {
+	    cout << "No entries found. Start by creating one!" << endl;
+	}	
 }
 
