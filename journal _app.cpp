@@ -25,5 +25,14 @@ void createEntry() {
 // Define function viewEntries
 void viewEntries() {
 	ifstream file("journal.txt");
+	if (file.is_open()) {
+		string line;
+		cout << "\nYour Journal Entries:\n";
+		cout << "-----------------------" << endl;
+		while (getline(file, line)) {
+			cout << "- " << line << endl;
+		}
+		file.close();
+		cout << "-----------------------\n" << endl;
 }
 
