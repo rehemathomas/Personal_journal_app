@@ -42,6 +42,12 @@ void viewEntries() {
 // Define function deleteEntries
 void deleteEntries() {
 	ofstream file("journal.txt", ofstream::trunc);
+	if (file.is_open()) {
+		file.close();
+		cout << "All entries deleted successfully!" << endl;
+	} else {
+		cout << "Error deleting entries." << endl;
+	}
 }
 
 
