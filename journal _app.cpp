@@ -63,7 +63,20 @@ void showMenu() {
 		cin >> choice;
 		
 		switch (choice) {
-			// cases to be added here
+		case 1:
+			createEntry();
+			break;
+		case 2:
+			viewEntries();
+			break;
+		case 3:
+			deleteEntries();
+			break;
+		case 4:
+			cout << "Goodbye!" << endl;
+			break;
+		default:
+			cout << "Invalid choice. Please try again." << endl;
 		}
 	} while (choice != 4);	
 }
