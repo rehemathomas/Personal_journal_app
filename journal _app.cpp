@@ -24,5 +24,6 @@ void createEntry() {
 
 // Define function viewEntries
 void viewEntries() {
+	ifstream file("journal.txt");
 }
 
