@@ -41,6 +41,7 @@ void viewEntries() {
 
 // Define function deleteEntries
 void deleteEntries() {
+	ofstream file("journal.txt", ofstream::trunc);
 }
 
 
