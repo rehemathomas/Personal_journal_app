@@ -52,6 +52,20 @@ void deleteEntries() {
 
 // Define function showMenu
 void showMenu() {
+	int choice;
+	do {
+		cout << "\nPersonal Journal App Menu" << endl;
+		cout << "1. Create a New Journal Entry" << endl;
+		cout << "2. View All Journal Entries" << endl;
+		cout << "3. Delete All Journal Entries" << endl;
+		cout << "4. Exit" << endl;
+		cout << "Enter your choice: ";
+		cin >> choice;
+		
+		switch (choice) {
+			// cases to be added here
+		}
+	} while (choice != 4);	
 }
 
 
