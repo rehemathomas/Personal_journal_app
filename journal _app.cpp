@@ -16,5 +16,8 @@ void createEntry() {
 	if (file.is_open()) {
 		file << entry << endl;
 		file.close();
+		cout << "Entry saved successfully!" << endl;
+	} else {
+	    cout << "Error opening file." << endl;	
 	}
 }
