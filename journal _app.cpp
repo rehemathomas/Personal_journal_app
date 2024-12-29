@@ -11,4 +11,10 @@ void createEntry() {
 	cout << "Enter your journal entry: ";
 	cin.ignore();
 	getline(cin, entry);
+	
+	ofstream file("journal.txt", ios::app);
+	if (file.is_open()) {
+		file << entry << endl;
+		file.close();
+	}
 }
