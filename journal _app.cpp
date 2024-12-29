@@ -81,5 +81,11 @@ void showMenu() {
 	} while (choice != 4);	
 }
 
+// Define main function and call showMenu
+int main() {
+    cout << "Welcome to the Personal Journal App!" << endl;
+    showMenu();
+    return 0;
+}
 
 
